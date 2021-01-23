@@ -1,0 +1,7 @@
+FirstName,LastName,Email,Phone
+Foo,Bar,foo@bar.baz,123.555.5555
+Baz,,baz@z.inc,
+Foo,Bars,foo@bar.baz,
+Foof,Bar,foof@bar.baz,(123)555-5555
+Guy,Threepwood,guy@monkey.island,121-555-5555
+Guy,Threeepwood,,1215555555

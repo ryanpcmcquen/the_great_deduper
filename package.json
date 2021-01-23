@@ -1,0 +1,24 @@
+{
+    "name": "the_great_deduper",
+    "version": "1.0.0",
+    "description": "Dedupe!",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "tape": "tape tape.test.js",
+        "sample:email": "node index.js --input=sample.csv --strategy=email",
+        "sample:phone": "node index.js --input=sample.csv --strategy=phone",
+        "sample:email_or_phone": "node index.js --input=sample.csv --strategy=email_or_phone"
+    },
+    "keywords": [],
+    "author": "Ryan McQuen",
+    "license": "MPL-2.0",
+    "dependencies": {
+        "csvtojson": "^2.0.10",
+        "jsonexport": "^3.2.0"
+    },
+    "devDependencies": {
+        "jest": "^26.6.3",
+        "tape": "^5.1.1"
+    }
+}
