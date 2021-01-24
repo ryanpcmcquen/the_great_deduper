@@ -1,6 +1,6 @@
-const theGreatDeduper = require("./csv_deduper");
+const the_great_deduper = require("./source/the_great_deduper");
 const main = async () => {
-    await theGreatDeduper();
+    await the_great_deduper();
 };
 
 main();

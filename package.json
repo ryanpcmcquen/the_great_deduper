@@ -4,11 +4,10 @@
     "description": "Dedupe!",
     "main": "index.js",
     "scripts": {
-        "test": "jest",
-        "tape": "tape tape.test.js",
-        "sample:email": "node index.js --input=sample.csv --strategy=email",
-        "sample:phone": "node index.js --input=sample.csv --strategy=phone",
-        "sample:email_or_phone": "node index.js --input=sample.csv --strategy=email_or_phone"
+        "test": "tape tests/**/*.test.js",
+        "sample:email": "node index.js --input=input/sample.csv --strategy=email",
+        "sample:phone": "node index.js --input=input/sample.csv --strategy=phone",
+        "sample:email_or_phone": "node index.js --input=input/sample.csv --strategy=email_or_phone"
     },
     "keywords": [],
     "author": "Ryan McQuen",
@@ -18,7 +17,6 @@
         "jsonexport": "^3.2.0"
     },
     "devDependencies": {
-        "jest": "^26.6.3",
         "tape": "^5.1.1"
     }
 }

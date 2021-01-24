@@ -1,7 +1,7 @@
 const test = require("tape");
-const main = require("./csv_deduper");
+const main = require("../source/the_great_deduper");
 
-test("test using promises", async (t) => {
+test("Test that email deduping works.", async (t) => {
     const result = await main(["--input=tests/sample.csv", "--strategy=email"]);
     console.log(result);
     t.equal(
