@@ -20,6 +20,11 @@ A new csv will be created under [`output`](./output) with a prefixed name, for e
 output/__DEDUPED__email_or_phone__FOO.csv
 ```
 
+### Available strategies:
+- email
+- phone
+- email_or_phone
+
 Optionally, you can pass an `output-directory`, to use something besides [`output`](./output).
 
 ```
@@ -54,4 +59,4 @@ To add additional deduping/merging strategies, extend the `strategies` prop insi
 }
 ```
 
-If no cleaning of the data is required, simple pass `null` as the 'regex' value.
+If no cleaning of the data is required, simply pass `null` as the 'regex' value.
