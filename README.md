@@ -1,5 +1,3 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ryanpcmcquen/the_great_deduper)
-
 # The Great Deduper
 
 A tool to merge duplicate records inside of CSVs using easily configurable 'strategies'.
@@ -27,6 +25,16 @@ Optionally, you can pass an `output-directory`, to use something besides [`outpu
 ```
 node index.js --input=FOO.csv --strategy=email_or_phone --output-directory=BARBAZ
 ```
+
+---
+
+## One click setup
+
+Choose either of these to run the entire thing with testing right in your browser!
+
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ryanpcmcquen/the_great_deduper)
+
+[![Run on Repl.it](https://repl.it/badge/github/ryanpcmcquen/the_great_deduper)](https://repl.it/github/ryanpcmcquen/the_great_deduper)
 
 ---
 
