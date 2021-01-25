@@ -8,13 +8,13 @@ To run it, simply install dependencies:
 yarn
 ```
 
-Then call the script with an input csv and strategy:
+Then call the script with an input CSV and strategy:
 
 ```
 node index.js --input=FOO.csv --strategy=email_or_phone
 ```
 
-A new csv will be created under [`output`](./output) with a prefixed name, for example:
+A new CSV will be created under [`output`](./output) with a prefixed name, for example:
 
 ```
 output/__DEDUPED__email_or_phone__FOO.csv
