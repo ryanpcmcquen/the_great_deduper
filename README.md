@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ryanpcmcquen/the_great_deduper)
+
 # The Great Deduper
 
 A tool to merge duplicate records inside of CSVs using easily configurable 'strategies'.
