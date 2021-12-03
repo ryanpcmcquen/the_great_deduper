@@ -5,7 +5,7 @@ A tool to merge duplicate records inside of CSVs using easily configurable 'stra
 To run it, simply install dependencies:
 
 ```
-yarn
+npm i
 ```
 
 Then call the script with an input CSV and strategy:
@@ -21,9 +21,10 @@ output/__DEDUPED__email_or_phone__FOO.csv
 ```
 
 ### Available strategies:
-- email
-- phone
-- email_or_phone
+
+-   email
+-   phone
+-   email_or_phone
 
 Optionally, you can pass an `output-directory`, to use something besides [`output`](./output).
 
@@ -46,7 +47,7 @@ Choose either of these to run the entire thing with testing right in your browse
 To run the built in tests, do:
 
 ```
-yarn test
+npm run test
 ```
 
 ---

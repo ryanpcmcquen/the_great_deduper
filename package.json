@@ -1,6 +1,6 @@
 {
     "name": "the_great_deduper",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Dedupe!",
     "main": "index.js",
     "scripts": {
