@@ -52,7 +52,7 @@ const dedupe = (data, strategies, the_args) => {
  * The main method that ties together all the other deduping stuff.
  *
  * @param {Array} [args=process.argv] The arguments, either passed in code or from the command line.
- * @return {String} { Striginfied, deduped, ready to write CSV data. }
+ * @return {String} { Stringified, deduped, ready to write CSV data. }
  */
 const the_great_deduper = async (args = process.argv) => {
     let the_result = null;
